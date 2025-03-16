@@ -1,0 +1,21 @@
+Metadata-Version: 2.2
+Name: mlProject
+Version: 0.0.0
+Summary: A small python package for ml app
+Home-page: https://github.com/Sujal1035-tech/End-to-End-Project-For-Wine-Prediction
+Author: Sujal1035-tech
+Author-email: sujalkhant4@gmail.com
+Project-URL: Bug Tracker, https://github.com/Sujal1035-tech/End-to-End-Project-For-Wine-Prediction/issues
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary
+
+#End to End ML Project
+
+'''base
+conda create -n mlproj python=3.8 -y
+
+'''
