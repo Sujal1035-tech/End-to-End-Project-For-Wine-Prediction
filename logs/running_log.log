@@ -1,1 +1,74 @@
 [2025-03-25 06:49:23,220: INFO: main: my name is sujal]
+[2025-03-27 00:03:47,599: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-27 00:03:47,623: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-27 00:03:47,653: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-27 00:03:47,660: INFO: common: created directory at: artifacts]
+[2025-03-27 00:03:47,663: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-03-27 00:03:51,550: INFO: 1966726501: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: AB87:6EE3D:51304:ABE7F:67E4F857
+Accept-Ranges: bytes
+Date: Thu, 27 Mar 2025 07:03:51 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4744-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1743059031.498199,VS0,VE274
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 3541fdc12c5a52e3d2a5d38fe77966458e8298fb
+Expires: Thu, 27 Mar 2025 07:08:51 GMT
+Source-Age: 0
+
+]
+[2025-03-27 00:22:42,374: ERROR: main: name 'STAGE_NAME' is not defined]
+Traceback (most recent call last):
+  File "E:\End to End Wine Quality Prediction\main.py", line 7, in <module>
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+NameError: name 'STAGE_NAME' is not defined
+[2025-03-27 00:23:54,348: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-03-27 00:23:54,354: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-27 00:23:54,360: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-27 00:23:54,394: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-27 00:23:54,399: INFO: common: created directory at: artifacts]
+[2025-03-27 00:23:54,402: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-03-27 00:23:57,347: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: AB87:6EE3D:51304:ABE7F:67E4F857
+Accept-Ranges: bytes
+Date: Thu, 27 Mar 2025 07:23:57 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4743-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1743060237.211074,VS0,VE240
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 1888e5e82ab895f0c6a173434fd29a178316edd4
+Expires: Thu, 27 Mar 2025 07:28:57 GMT
+Source-Age: 0
+
+]
+[2025-03-27 00:23:57,407: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
