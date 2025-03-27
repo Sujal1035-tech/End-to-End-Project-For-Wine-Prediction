@@ -1,1 +1,3 @@
-from src.mlProject.config.configuration import main
+from mlProject import logger
+
+logger.info("my name is sujal")

@@ -10,4 +10,9 @@ joblib
 types-PyYAML
 Flask
 Flask-Cors
--e .
+xgboost
+catboost
+numpy
+matplotlib
+seaborn
+#-e .
