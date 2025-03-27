@@ -72,3 +72,70 @@ Source-Age: 0
 [2025-03-27 00:23:57,407: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
 
 x==========x]
+[2025-03-27 03:08:11,346: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-27 03:08:11,364: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-27 03:08:11,376: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-27 03:08:11,381: INFO: common: created directory at: artifacts]
+[2025-03-27 03:13:14,909: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-27 03:13:14,909: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-27 03:13:14,925: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-27 03:13:14,925: INFO: common: created directory at: artifacts]
+[2025-03-27 03:18:56,364: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-27 03:18:56,372: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-27 03:18:56,380: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-27 03:18:56,388: INFO: common: created directory at: artifacts]
+[2025-03-27 03:19:40,913: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-27 03:19:40,921: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-27 03:19:40,996: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-27 03:19:41,004: INFO: common: created directory at: artifacts]
+[2025-03-27 03:19:41,004: INFO: common: created directory at: artifacts/data_validation]
+[2025-03-27 03:20:59,530: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-27 03:20:59,538: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-27 03:20:59,546: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-27 03:20:59,554: INFO: common: created directory at: artifacts]
+[2025-03-27 03:20:59,554: INFO: common: created directory at: artifacts/data_validation]
+[2025-03-27 03:37:14,751: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-03-27 03:37:14,761: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-27 03:37:14,761: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-27 03:37:14,771: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-27 03:37:14,771: INFO: common: created directory at: artifacts]
+[2025-03-27 03:37:14,771: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-03-27 03:37:17,274: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 6D7D:289F90:25E72:4AD2E:67E52A5E
+Accept-Ranges: bytes
+Date: Thu, 27 Mar 2025 10:37:18 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4731-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1743071838.431428,VS0,VE243
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 27a99c12554344d3af7b04fe1763e9aeba657bed
+Expires: Thu, 27 Mar 2025 10:42:18 GMT
+Source-Age: 0
+
+]
+[2025-03-27 03:37:17,371: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-03-27 03:37:17,376: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-03-27 03:37:17,381: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-27 03:37:17,385: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-27 03:37:17,395: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-27 03:37:17,395: INFO: common: created directory at: artifacts]
+[2025-03-27 03:37:17,395: INFO: common: created directory at: artifacts/data_validation]
+[2025-03-27 03:37:17,456: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
