@@ -282,3 +282,285 @@ x==========x]
 [2025-03-27 23:51:45,561: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
 
 x==========x]
+[2025-03-28 03:52:44,001: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-28 03:52:44,028: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-28 03:52:44,036: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-28 03:52:44,052: INFO: common: created directory at: artifacts]
+[2025-03-28 03:52:44,052: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-03-28 03:55:31,749: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-28 03:55:31,757: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-28 03:55:31,770: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-28 03:55:31,770: INFO: common: created directory at: artifacts]
+[2025-03-28 03:55:31,778: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-03-28 03:55:33,205: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2025-03-28 04:10:13,810: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-03-28 04:10:13,835: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-28 04:10:13,859: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-28 04:10:13,883: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-28 04:10:13,883: INFO: common: created directory at: artifacts]
+[2025-03-28 04:10:13,893: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-03-28 04:10:16,914: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: B2BB:201946:4FF6B5:8F3CB6:67E68398
+Accept-Ranges: bytes
+Date: Fri, 28 Mar 2025 11:10:16 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4725-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1743160217.556858,VS0,VE395
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: c8e2637a4bfcf3bacbe761755789f83a1f32da03
+Expires: Fri, 28 Mar 2025 11:15:16 GMT
+Source-Age: 0
+
+]
+[2025-03-28 04:10:16,970: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-03-28 04:10:16,970: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-03-28 04:10:16,978: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-28 04:10:16,987: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-28 04:10:16,995: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-28 04:10:16,995: INFO: common: created directory at: artifacts]
+[2025-03-28 04:10:16,995: INFO: common: created directory at: artifacts/data_validation]
+[2025-03-28 04:10:17,043: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-03-28 04:10:17,043: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-03-28 04:10:17,078: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-28 04:10:17,086: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-28 04:10:17,102: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-28 04:10:17,102: INFO: common: created directory at: artifacts]
+[2025-03-28 04:10:17,102: INFO: common: created directory at: artifacts/data_transformation]
+[2025-03-28 04:10:17,174: INFO: data_transformation: Splited data into training and test sets]
+[2025-03-28 04:10:17,182: INFO: data_transformation: (1199, 12)]
+[2025-03-28 04:10:17,182: INFO: data_transformation: (400, 12)]
+[2025-03-28 04:10:17,182: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-03-28 04:10:17,182: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-03-28 04:10:17,190: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-28 04:10:17,198: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-28 04:10:17,206: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-28 04:10:17,214: INFO: common: created directory at: artifacts]
+[2025-03-28 04:10:17,214: INFO: common: created directory at: artifacts/model_trainer]
+[2025-03-28 04:10:20,482: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-03-28 04:10:20,482: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2025-03-28 04:10:20,490: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-28 04:10:20,498: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-28 04:10:20,498: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-28 04:10:20,506: INFO: common: created directory at: artifacts]
+[2025-03-28 04:10:20,506: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-03-28 04:10:20,506: ERROR: main: 'NoneType' object has no attribute 'test_data_path']
+Traceback (most recent call last):
+  File "E:\End to End Wine Quality Prediction\main.py", line 58, in <module>
+    obj.main()
+  File "e:\end to end wine quality prediction\src\mlProject\pipeline\stage_05_model_evaluation.py", line 16, in main
+    model_evaluation_config.save_results()
+  File "e:\end to end wine quality prediction\src\mlProject\components\model_evaluation.py", line 25, in save_results
+    test_data = pd.read_csv(self.config.test_data_path)
+AttributeError: 'NoneType' object has no attribute 'test_data_path'
+[2025-03-28 04:19:25,146: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-03-28 04:19:25,154: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-28 04:19:25,162: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-28 04:19:25,162: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-28 04:19:25,170: INFO: common: created directory at: artifacts]
+[2025-03-28 04:19:25,170: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "E:\End to End Wine Quality Prediction\main.py", line 16, in <module>
+    obj.main()
+  File "e:\end to end wine quality prediction\src\mlProject\pipeline\stage_01_data_ingestion.py", line 14, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-03-28 04:21:27,109: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-03-28 04:21:27,122: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-28 04:21:27,125: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-28 04:21:27,147: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-28 04:21:27,147: INFO: common: created directory at: artifacts]
+[2025-03-28 04:21:27,147: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "E:\End to End Wine Quality Prediction\main.py", line 16, in <module>
+    obj.main()
+  File "e:\end to end wine quality prediction\src\mlProject\pipeline\stage_01_data_ingestion.py", line 14, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-03-28 04:27:12,807: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-03-28 04:27:12,815: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-28 04:27:12,815: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-28 04:27:12,824: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-28 04:27:12,824: INFO: common: created directory at: artifacts]
+[2025-03-28 04:27:12,824: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-03-28 04:27:15,126: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: B2BB:201946:4FF6B5:8F3CB6:67E68398
+Accept-Ranges: bytes
+Date: Fri, 28 Mar 2025 11:27:15 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4745-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1743161235.844765,VS0,VE343
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 52e328727680803e35c66b3b7f4a013e6e2892f8
+Expires: Fri, 28 Mar 2025 11:32:15 GMT
+Source-Age: 0
+
+]
+[2025-03-28 04:27:15,168: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-03-28 04:27:15,168: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-03-28 04:27:15,184: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-28 04:27:15,184: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-28 04:27:15,208: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-28 04:27:15,216: INFO: common: created directory at: artifacts]
+[2025-03-28 04:27:15,216: INFO: common: created directory at: artifacts/data_validation]
+[2025-03-28 04:27:15,337: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-03-28 04:27:15,345: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-03-28 04:27:15,458: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-28 04:27:15,480: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-28 04:27:15,528: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-28 04:27:15,544: INFO: common: created directory at: artifacts]
+[2025-03-28 04:27:15,552: INFO: common: created directory at: artifacts/data_transformation]
+[2025-03-28 04:27:15,643: INFO: data_transformation: Splited data into training and test sets]
+[2025-03-28 04:27:15,651: INFO: data_transformation: (1199, 12)]
+[2025-03-28 04:27:15,659: INFO: data_transformation: (400, 12)]
+[2025-03-28 04:27:15,676: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-03-28 04:27:15,684: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-03-28 04:27:15,716: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-28 04:27:15,740: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-28 04:27:15,756: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-28 04:27:15,770: INFO: common: created directory at: artifacts]
+[2025-03-28 04:27:15,770: INFO: common: created directory at: artifacts/model_trainer]
+[2025-03-28 04:27:19,123: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-03-28 04:36:04,404: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-03-28 04:36:04,413: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-28 04:36:04,418: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-28 04:36:04,429: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-28 04:36:04,434: INFO: common: created directory at: artifacts]
+[2025-03-28 04:36:04,436: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "E:\End to End Wine Quality Prediction\main.py", line 16, in <module>
+    obj.main()
+  File "e:\end to end wine quality prediction\src\mlProject\pipeline\stage_01_data_ingestion.py", line 14, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-03-28 04:39:49,614: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-03-28 04:39:49,622: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-28 04:39:49,626: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-28 04:39:49,632: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-28 04:39:49,633: INFO: common: created directory at: artifacts]
+[2025-03-28 04:39:49,634: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "E:\End to End Wine Quality Prediction\main.py", line 16, in <module>
+    obj.main()
+  File "e:\end to end wine quality prediction\src\mlProject\pipeline\stage_01_data_ingestion.py", line 14, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-03-28 04:42:21,850: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-03-28 04:42:21,862: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-28 04:42:21,869: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-28 04:42:21,880: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-28 04:42:21,883: INFO: common: created directory at: artifacts]
+[2025-03-28 04:42:21,885: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-03-28 04:42:24,403: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: B2BB:201946:4FF6B5:8F3CB6:67E68398
+Accept-Ranges: bytes
+Date: Fri, 28 Mar 2025 11:42:24 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4721-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1743162144.254392,VS0,VE237
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: f352064113bd9510525bf5412d653f9c9e605e43
+Expires: Fri, 28 Mar 2025 11:47:24 GMT
+Source-Age: 0
+
+]
+[2025-03-28 04:42:24,438: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-03-28 04:42:24,440: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-03-28 04:42:24,455: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-28 04:42:24,460: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-28 04:42:24,469: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-28 04:42:24,474: INFO: common: created directory at: artifacts]
+[2025-03-28 04:42:24,477: INFO: common: created directory at: artifacts/data_validation]
+[2025-03-28 04:42:24,536: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-03-28 04:42:24,543: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-03-28 04:42:24,561: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-28 04:42:24,568: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-28 04:42:24,590: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-28 04:42:24,594: INFO: common: created directory at: artifacts]
+[2025-03-28 04:42:24,596: INFO: common: created directory at: artifacts/data_transformation]
+[2025-03-28 04:42:24,677: INFO: data_transformation: Splited data into training and test sets]
+[2025-03-28 04:42:24,678: INFO: data_transformation: (1199, 12)]
+[2025-03-28 04:42:24,679: INFO: data_transformation: (400, 12)]
+[2025-03-28 04:42:24,681: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-03-28 04:42:24,682: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-03-28 04:42:24,707: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-28 04:42:24,716: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-28 04:42:24,733: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-28 04:42:24,740: INFO: common: created directory at: artifacts]
+[2025-03-28 04:42:24,743: INFO: common: created directory at: artifacts/model_trainer]
+[2025-03-28 04:42:27,719: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-03-28 04:42:27,720: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2025-03-28 04:42:27,731: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-28 04:42:27,739: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-28 04:42:27,745: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-28 04:42:27,747: INFO: common: created directory at: artifacts]
+[2025-03-28 04:42:27,751: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-03-28 04:42:28,870: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2025-03-28 04:42:28,876: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
