@@ -1,1 +1,11 @@
-key: val
+model_name:
+  name: "RandomForestRegressor"
+  random_state: 42
+
+best_hyperparameters:
+  n_estimators: 400
+  min_samples_split: 10
+  min_samples_leaf: 2
+  max_features: "log2"
+  max_depth: 30
+  bootstrap: True
