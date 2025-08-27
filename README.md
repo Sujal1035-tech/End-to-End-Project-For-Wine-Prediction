@@ -214,14 +214,6 @@ Project Link: [https://github.com/Sujal1035-tech/End-to-End-Project-For-Wine-Pre
 
 ---
 
-## 🎯 Future Enhancements
 
-• **📱 Mobile App** - React Native mobile application  
-• **☁️ Cloud Deployment** - AWS/Azure deployment  
-• **🤖 AutoML** - Automated model selection  
-• **📊 Advanced Visualization** - Interactive charts and graphs  
-• **🔄 Real-time Updates** - Live model retraining  
-
----
 
 ⭐ **If you find this project helpful, please give it a star!** ⭐
