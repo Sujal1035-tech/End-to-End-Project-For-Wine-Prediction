@@ -176,28 +176,6 @@ The project uses the **Wine Quality Dataset** containing:
 • **📈 Samples**: 1599+ wine samples  
 • **🔍 Type**: Regression/Classification problem  
 
-### Wine Features:
-- Fixed Acidity
-- Volatile Acidity
-- Citric Acid
-- Residual Sugar
-- Chlorides
-- Free Sulfur Dioxide
-- Total Sulfur Dioxide
-- Density
-- pH
-- Sulphates
-- Alcohol
-
-## 🤝 Contributing
-
-We welcome contributions! Here's how:
-
-1. **🍴 Fork** the repository
-2. **🌿 Create** a feature branch
-3. **✨ Make** your changes
-4. **📤 Submit** a pull request
-
 ---
 
 ## 📄 License
